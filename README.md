@@ -35,4 +35,4 @@ Install Gulp cli
 
 1. Para levantar el maquetado primero hay que ejecutar desde consola npm install. 
 
-2. Luego ejecutar en consola gulp server para que levante el servidor en la carpeta dist que es donde está alojado el código ya optimizado. En caso de no poder levantarlo en un server el archivo index.html de la carpeta dist se puede ver normalmente en el navegador.  
+2. Luego ejecutar en consola gulp server para que levante el servidor en la carpeta dist que es donde está alojado el código ya optimizado. En caso de no poder levantarlo en un server el archivo index.html de la carpeta dist se puede ver normalmente en el navegador. También agregue el comando gulp server que levanta directamente el index optimizado en un server local para acelerar.
