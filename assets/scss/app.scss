@@ -1,0 +1,81 @@
+// Custom bootstrap variable overrides
+@import "bootstrap_variable_overrides";
+
+// Bootstrap and its default variables
+@import "bootstrap/bootstrap";
+
+// Your style
+@import "variables";
+@import "mixins";
+@import "general";
+@import "layout";
+@import "module";
+
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/roboto/Roboto-Regular.ttf')
+}
+.RobotoReg{
+	font-family: 'Roboto Regular';
+}
+body{
+	font-family: 'Roboto Regular';
+}
+
+h1{
+	font-size: 60px;
+}
+.backgroundImage{
+
+	background:url('../img/header1.png');
+	background-size: cover;
+	background-position: bottom;
+}
+.backRosa{
+	background-color: rgba(194, 63, 129, 0.7);
+
+}
+ .card-body{
+	padding: 10px;
+	background-color: #f5f5f5;
+	border-radius: 0px 0px 10px 10px;
+}
+.card{
+	margin-top: 30px;
+	border-radius: 10px;
+}
+.footer{
+	background-color: #313131;
+	max-height: 100px;
+}
+.searchLabel{
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.buttonSearch{
+	font-size: 20px;
+    color: #fff;
+    margin-bottom: 9px;
+}
+.pointer{
+	cursor: pointer;
+}
+#myInput{
+	background-color: #ccc;
+}
+.imgCard{
+	max-width: 350px;
+	max-height: 250px;
+}
+@include media-breakpoint-down(sm) {
+
+  .imgCard{
+	max-width: 100%;
+	max-height: 100%;
+}
+.backgroundImage{
+
+	min-height: 30vh;
+}
+}
